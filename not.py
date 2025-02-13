@@ -6,7 +6,7 @@ import os
 from keep_alive import keep_alive
 keep_alive()
 # Insert your Telegram bot token here
-bot = telebot.TeleBot('7901253185:AAFH1y2RCoPMho3_uPm8ZCyYNlHz8sa7qpw')
+bot = telebot.TeleBot('8120338310:AAEMDeg9InTC296-igYMb0RleNnsRkxct4A')
 
 # Admin user IDs
 admin_id = {"7702119573"}
@@ -369,7 +369,7 @@ Official Channel :- https://t.me/
 @bot.message_handler(commands=['start'])
 def welcome_start(message):
     user_name = message.from_user.first_name
-    response = f'''🔥Gyrange ke LODE pe aapka swagat hai, {user_name}! Sabse acche se bgmi ki maa behen yahi hack karta hai. Kharidne ke liye Kira se sampark karein.
+    response = f'''🔥X CLAN ke LODE pe aapka swagat hai, {user_name}! Sabse acche se bgmi ki maa behen yahi hack karta hai. Kharidne ke liye Kira se sampark karein.
 🤗Try To Run This Command : /help 
 💵BUY :-'''
     bot.reply_to(message, response)
